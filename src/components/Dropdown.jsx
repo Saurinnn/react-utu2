@@ -1,8 +1,9 @@
 import React from "react";
 
-const Dropdown = ({ text, addCount }) => {
+const Dropdown = ({ order ,text, addCount }) => {
   return (
     <div>
+      <h3>あと{20-order}問/全20問</h3>
       <p className="pt-5 pb-7 text-3xl sm:w-6/12 md:w-9/12 lg:w-1/3 mr-auto ml-auto rounded-lg bg-blue-100 text-gray-700">{text}</p>
       <select className="mt-7 mb-7 h-10 w-80" id="freq" onChange={addCount}>
         <option value="" selected>以下から選択してください</option>
