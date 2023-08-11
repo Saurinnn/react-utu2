@@ -14,3 +14,11 @@ code {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* モバイルデバイス向けのスタイル */
+@media (max-width: 640px) {
+  .dropdown-select {
+    background-color: #E2E8F0; /* 望む背景色に変更してください */
+    color: #4A5568; /* 望むテキスト色に変更してください */
+  }
+}
