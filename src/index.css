@@ -21,4 +21,9 @@ code {
     background-color: #E2E8F0; /* 望む背景色に変更してください */
     color: #4A5568; /* 望むテキスト色に変更してください */
   }
+  
+  .dropdown-select:focus {
+    outline: none; /* フォーカス時のデフォルトのアウトラインを非表示に */
+    box-shadow: 0 0 3px #A0AEC0; /* 望むシャドウを指定してください */
+  }
 }
