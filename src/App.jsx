@@ -34,10 +34,11 @@ export const App = () =>{
     "Q18.悲しいと感じる",
     "Q19.みなが自分を嫌っていると感じる",
     "Q20.仕事や勉強が手につかない",
+    "点数をチェックしてみましょう",
     ];
 
     const addNum = () =>{
-      if(num === 19){
+      if(num === 20){
         return;
       };
       setNum(num + 1);
@@ -61,7 +62,7 @@ export const App = () =>{
     
     const addCount = (e) =>{
       const selectedValue= Number(e.target.value);
-      if(num === 19){
+      if(num === 20){
         return;
       }
       setCount([
