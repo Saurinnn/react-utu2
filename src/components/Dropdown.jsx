@@ -5,7 +5,7 @@ const Dropdown = ({ order ,text, addCount }) => {
 
   return (
     <div>
-      <h3>{order === 21 ? "お疲れさまでした" : `あと${21 - order}問/全20問`}</h3>
+      <h3>{order === 21 ? "お疲れさまでした" : `あと${21 - order}問です/全20問`}</h3>
       <p className="mb-5 pt-5 pb-7 text-3xl sm:w-6/12 md:w-9/12 lg:w-1/3 mr-auto ml-auto rounded-lg bg-blue-100 text-gray-700">{text}</p>
       <div className="relative">
         <select
